@@ -1,0 +1,137 @@
+@media (min-width: 465px) {
+}
+
+@media (max-width: 465px) {
+  .hiddenXS {
+    display: none;
+  }
+
+  .mainHeader {
+    padding-top: 50px;
+  }
+
+  .bannerBtn,
+  .bannerContent p,
+  .bannerLink {
+    font-size: 1em;
+  }
+
+  .bannerContent h2 {
+    font-size: 2.2em;
+  }
+
+  .logo img {
+    max-width: 200px;
+  }
+
+  .navItem i {
+    font-size: 1.4em;
+    margin-left: 10px;
+    margin-right: 10px;
+  }
+}
+
+@media (min-width: 650px) {
+}
+
+@media (max-width: 650px) {
+  .hiddenS {
+    display: none;
+  }
+
+  .bannerInfo {
+    width: 100%;
+  }
+}
+
+@media (min-width: 769px) {
+  .hamburgerMain {
+    display: none;
+  }
+}
+
+@media (max-width: 790px) {
+  .hiddenM {
+    display: none;
+  }
+
+  .banner {
+    flex-direction: column-reverse;
+    height: fit-content !important;
+  }
+  .bannerImgContainer {
+    width: 100%;
+  }
+  .bannerImg {
+    border-radius: 0 !important;
+    height: 400px;
+  }
+
+  .bannerContent {
+    margin-bottom: 50px;
+  }
+
+  .cardContainer {
+    flex-direction: column;
+  }
+
+  .bannerInfo {
+    width: 100%;
+  }
+
+  .mainInfo {
+    width: 60%;
+  }
+
+  .iconContainer {
+    flex-direction: column;
+  }
+}
+
+@media (max-width: 979px) and (min-width: 791px) {
+  .bannerContent h2 {
+    font-size: 2.2em;
+  }
+
+  .bannerContent p,
+  .bannerBtn,
+  .bannerLink {
+    font-size: 1em;
+  }
+
+  .mainInfo {
+    width: 80%;
+  }
+}
+
+@media (min-width: 980px) {
+}
+
+@media (max-width: 980px) {
+  .hiddenLg {
+    display: none;
+  }
+}
+
+@media (min-width: 1250px) {
+  .mainHeader {
+    margin-left: 50px;
+    margin-right: 50px;
+  }
+
+  .card img {
+    height: 500px;
+    width: 500px;
+  }
+}
+
+@media (max-width: 1250px) {
+  .hiddenXL {
+    display: none;
+  }
+
+  .navItem {
+    padding: 10px;
+    font-size: 1em;
+  }
+}
