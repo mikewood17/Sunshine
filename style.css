@@ -359,6 +359,57 @@ html {
   bottom: 0;
 }
 
+/* Form Styles */
+
+.formSection {
+  background-color: rgb(234, 218, 97);
+  padding: 50px 0;
+}
+
+.formWrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.formInputs {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  max-width: 900px;
+}
+
+.inputBlock {
+  display: flex;
+  flex-direction: column;
+}
+
+.block {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  padding: 15px;
+}
+
+.block input {
+  border: none;
+  border-radius: 3px;
+  height: 30px;
+  margin-top: 5px;
+}
+
+.formButton button {
+  padding: 8px 13px;
+  border: none;
+  border-radius: 8px;
+  background-color: #24262b;
+  font-size: 1.2em;
+  margin-top: 20px;
+  text-decoration: none;
+  color: #fff;
+}
+
 /* Footer Styles  */
 
 .row {

@@ -50,6 +50,21 @@
   }
 }
 
+@media (min-width: 574px) {
+  .formInputs {
+    flex-direction: column;
+  }
+
+  .inputBlock {
+    width: 100%;
+    flex-direction: row;
+  }
+
+  .block {
+    width: 50%;
+  }
+}
+
 @media (min-width: 650px) {
 }
 
