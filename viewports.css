@@ -29,15 +29,17 @@
     margin-left: 10px;
     margin-right: 10px;
   }
+
+  .row {
+    flex-direction: column;
+  }
 }
 
 @media (max-width: 574px) {
   .footer-col {
     width: 100%;
   }
-  .row {
-    flex-direction: column;
-  }
+
   .footerItem {
     width: 100%;
   }
