@@ -93,6 +93,7 @@
   .bannerContent {
     margin-bottom: 50px;
     align-items: center;
+    width: 80%;
   }
 
   .bannerInfo {
