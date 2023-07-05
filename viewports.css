@@ -92,6 +92,7 @@
 
   .bannerContent {
     margin-bottom: 50px;
+    align-items: center;
   }
 
   .bannerInfo {
