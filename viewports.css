@@ -21,13 +21,30 @@
   }
 
   .logo img {
-    max-width: 200px;
+    max-width: 175px;
   }
 
   .navItem i {
     font-size: 1.4em;
     margin-left: 10px;
     margin-right: 10px;
+  }
+}
+
+@media (max-width: 574px) {
+  .footer-col {
+    width: 100%;
+  }
+  .row {
+    flex-direction: column;
+  }
+  .footerItem {
+    width: 100%;
+  }
+
+  .card img {
+    height: 250px;
+    width: 250px;
   }
 }
 
@@ -41,6 +58,10 @@
 
   .bannerInfo {
     width: 100%;
+  }
+
+  .mainInfo {
+    width: 80% !important;
   }
 }
 
@@ -71,20 +92,25 @@
     margin-bottom: 50px;
   }
 
-  .cardContainer {
-    flex-direction: column;
-  }
-
   .bannerInfo {
     width: 100%;
   }
 
   .mainInfo {
     width: 60%;
+    text-align: left;
   }
 
   .iconContainer {
     flex-direction: column;
+  }
+  .footerItem {
+    flex-direction: column;
+  }
+
+  .footer-col {
+    width: 50%;
+    margin-bottom: 30px;
   }
 }
 
@@ -111,6 +137,9 @@
   .hiddenLg {
     display: none;
   }
+  .cardContainer {
+    flex-direction: column;
+  }
 }
 
 @media (min-width: 1250px) {
@@ -119,9 +148,8 @@
     margin-right: 50px;
   }
 
-  .card img {
-    height: 500px;
-    width: 500px;
+  .cardBtnBig {
+    font-size: 1.2em;
   }
 }
 

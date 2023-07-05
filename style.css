@@ -29,6 +29,11 @@ html {
   padding-right: 15px;
 }
 
+.content {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
 .halver {
   min-width: 50%;
 }
@@ -214,11 +219,11 @@ html {
   display: flex;
   flex-direction: column;
   align-items: center;
+  text-align: center;
 
   margin-top: 50px;
   margin-bottom: 50px;
 
-  width: 40%;
   max-width: 650px;
 }
 
@@ -232,7 +237,9 @@ html {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  max-width: 50%;
+}
+
+.bigCardContainer {
 }
 
 .card {
@@ -250,14 +257,18 @@ html {
     min-height: 40%; */
 }
 
+.bigCard img {
+  width: 100% !important;
+}
+
 .card:hover {
   transition: 0.5s;
   top: -10px;
 }
 
 .card img {
-  height: 300px;
-  width: 300px;
+  height: 400px;
+  width: 400px;
   border-radius: 15px;
 
   object-fit: cover;
@@ -269,7 +280,6 @@ html {
 
   padding: 15px 20px;
   border-radius: 10px;
-  width: 200px;
 
   text-align: center;
   font-size: 1.3em;
@@ -279,6 +289,11 @@ html {
   top: -30px;
 }
 
+.cardBtnBig {
+  width: 80% !important;
+  top: -80px !important;
+  font-size: 1em;
+}
 .secondaryContent {
   background-color: rgb(234, 218, 97);
   display: flex;
@@ -342,4 +357,81 @@ html {
 
   border-radius: 0em 0em 90em 90em / 90%;
   bottom: 0;
+}
+
+/* Footer Styles  */
+
+.row {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 1400px;
+}
+ul {
+  list-style: none;
+  padding: 0;
+  color: #fff;
+}
+.footer {
+  background-color: #24262b;
+  padding: 70px 0;
+}
+.footer-col {
+  padding: 0 15px;
+  width: 50%;
+}
+.footer-col h4 {
+  font-size: 18px;
+  color: #ffffff;
+  text-transform: capitalize;
+  margin-bottom: 35px;
+  font-weight: 500;
+  position: relative;
+}
+.footer-col h4::before {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -10px;
+  background-color: rgb(234, 218, 97);
+  height: 2px;
+  box-sizing: border-box;
+  width: 100px;
+}
+.footer-col ul li:not(:last-child) {
+  margin-bottom: 10px;
+}
+.footer-col ul li a {
+  font-size: 16px;
+  text-transform: capitalize;
+  color: #ffffff;
+  text-decoration: none;
+  font-weight: 300;
+  color: #bbbbbb;
+  display: block;
+  transition: all 0.3s ease;
+}
+.footer-col ul li a:hover {
+  color: #ffffff;
+  padding-left: 8px;
+}
+.footer-col .social-links a {
+  display: inline-block;
+  height: 40px;
+  width: 40px;
+  background-color: rgba(255, 255, 255, 0.2);
+  margin: 0 10px 10px 0;
+  text-align: center;
+  line-height: 40px;
+  border-radius: 50%;
+  color: #ffffff;
+  transition: all 0.5s ease;
+}
+.footer-col .social-links a:hover {
+  color: #24262b;
+  background-color: rgb(234, 218, 97);
+}
+
+.footerItem {
+  display: flex;
+  width: 50%;
 }
