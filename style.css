@@ -7,7 +7,8 @@ html * {
 }
 body {
   margin: 0;
-  background-color: rgb(255, 255, 255);
+  background-color: #ffffff;
+  color: #000;
   overflow-x: hidden;
 }
 
@@ -72,7 +73,7 @@ html {
 }
 
 .navItem:hover {
-  color: rgb(241, 197, 53);
+  color: rgb(255, 225, 0);
   cursor: pointer;
 }
 
@@ -84,7 +85,7 @@ html {
 
 .navBtn {
   color: #000;
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
   border-radius: 8px;
   padding: 10px 15px;
   margin-left: 20px;
@@ -126,13 +127,13 @@ html {
   display: flex;
   min-width: 100vw;
   height: 800px;
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 255, 255);
   border-radius: 0em 0em 500em 500em / 100%;
   overflow: hidden;
 }
 
 .bannerInfo {
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 230, 0);
   display: flex;
   flex-direction: column;
 
@@ -275,8 +276,8 @@ html {
 }
 
 .cardBtn {
-  background-color: rgb(234, 218, 97);
-  color: #fff;
+  background-color: #24262b;
+  color: #ffffff;
 
   padding: 15px 20px;
   border-radius: 10px;
@@ -295,7 +296,7 @@ html {
   font-size: 1em;
 }
 .secondaryContent {
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
   display: flex;
   align-items: center;
   flex-direction: column;
@@ -309,6 +310,7 @@ html {
 .iconContainer i {
   font-size: 5em;
   padding: 10px;
+  color: #24262b;
 }
 
 .iconItem {
@@ -327,7 +329,7 @@ html {
   color: #fff;
   font-size: 2em;
   text-decoration: none;
-  background-color: #000;
+  background-color: #24262b;
   padding: 10px 15px;
   border-radius: 8px;
   margin-top: 50px;
@@ -344,7 +346,7 @@ html {
 .curveTop {
   height: 150px;
   min-width: 100%;
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
 
   border-radius: 90em 90em 0em 0 / 90%;
   bottom: 0;
@@ -353,7 +355,7 @@ html {
 .curveBtm {
   height: 150px;
   min-width: 100%;
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
 
   border-radius: 0em 0em 90em 90em / 90%;
   bottom: 0;
@@ -362,7 +364,7 @@ html {
 /* Form Styles */
 
 .formSection {
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
   padding: 50px 0;
 }
 
@@ -393,7 +395,7 @@ html {
 }
 
 .block input {
-  border: none;
+  border: 1px solid #24262b;
   border-radius: 3px;
   height: 30px;
   margin-top: 5px;
@@ -443,7 +445,7 @@ ul {
   position: absolute;
   left: 0;
   bottom: -10px;
-  background-color: rgb(234, 218, 97);
+  background-color: rgb(255, 225, 0);
   height: 2px;
   box-sizing: border-box;
   width: 100px;

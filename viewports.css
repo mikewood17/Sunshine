@@ -170,6 +170,11 @@
   .cardBtnBig {
     font-size: 1.2em;
   }
+
+  .formInputs {
+    flex-direction: row;
+    max-width: 1500px;
+  }
 }
 
 @media (max-width: 1250px) {
